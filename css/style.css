@@ -1,0 +1,236 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2, h3{
+   color: rgb(62, 65, 66);
+}
+
+
+
+
+/*HEADER*/
+
+.container_header{
+    width: 93%;
+    margin: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    padding-top: 50px;
+    display: inline;
+    
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header #logo{
+    float: left;
+    margin-top: 20px;
+}
+header nav{
+    text-align: right;
+    margin-top: 50px;
+
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    
+}
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+
+/*TODO: Agregar borde en header en vez de en a*/
+header a:hover{
+    color: #F24949;
+    font-weight: bold;
+    border-top: 6px solid #F24949;
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#362f2f;
+    min-height: 70px;
+    
+}
+
+
+
+#nav_img{
+    min-height:100vh ;
+    background:url('../img/back.jpg') no-repeat;
+}
+
+/*Banner*/
+#banner{
+    text-align: center;
+    color: white;
+}
+#banner h1{
+    color: #F24949;
+    font-size: 310%;
+}
+#banner p{
+    font-size: 120%;
+}
+
+#banner ul{
+    list-style: none;
+    line-height: 8.5;
+    font-size: 120%;
+}
+#banner li{
+    display: inline;
+    padding: 0 25px 0 25px;
+}
+
+#banner li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #F24949; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block;
+    width: 1.5em;
+  }
+
+.container_banner{
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 14vh;
+    font-size: 100%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 1;
+}
+
+#know a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#know a:hover{
+    color: #F24949;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Boxes*/
+#boxes{
+    text-align: center;
+    margin-top: 20px;
+}
+.container_boxes{
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    color: #3e4142;
+    display: inline-block;
+}
+.box{
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+.box img{
+    width: 97px;
+}
+
+#boxes h1{
+    font-size: 2.25em;
+    font-weight: 400;
+    height: 20;
+    
+}
+
+.box h2{
+    line-height: 29px;
+    font-size: 1.5em;
+    color: #3e4142;
+    font-weight: lighter;
+}
+
+.box p{
+    font-size: 1.125em;
+    line-height: 1.5;
+    height:70px;
+    color:#3e4142;
+}
+
+.learn a{
+    color: #F24949;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.learn a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*FromTo*/
+#fromto{
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+#container_from{
+    width: 75%;
+    line-height: 30px;
+    margin: auto;
+    
+}
+
+#container_from h1{
+    line-height: 5;
+    font-size: 220%;
+    letter-spacing: 10;
+    font-weight: 400;
+}
+
+p{
+    line-height: 2;
+    font-size: 115%;
+}
+
+#container_from h3{
+    line-height: 4;
+}
+#btn-contact{
+    height: 250px;
+}
+
+#fromto button {
+    background-color: #F24949; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 60px;
+  }
